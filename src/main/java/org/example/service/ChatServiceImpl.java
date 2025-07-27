@@ -16,12 +16,6 @@ public class ChatServiceImpl implements  ChatService{
     MessageRepository messageRepository;
 
     @Autowired
-    WebSocketGateway webSocketGateway;
-
-    @Autowired
-    NotificationService notificationService;
-
-    @Autowired
     ChatProducer chatProducer;
 
     @Override
